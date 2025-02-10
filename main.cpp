@@ -30,4 +30,9 @@ int main(){
     signed long long signedLongLong{-444};
     signed long long int signedLongLongInt{1234};
     unsigned long long int unsignedLongLongInt{1234};
+
+    std::cout << "Infinity positivo = "<<(1.0f/0) << std::endl;
+    std::cout << "Infinity negativo = "<<(-1.0f/0) << std::endl;
+
+    std::cout << "NaN = "<<(0.0f/0) << std::endl;
 }
